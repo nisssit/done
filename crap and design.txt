@@ -1,0 +1,28 @@
+What is CRAP Design?
+
+
+CRAP stands for contrast , repetition , Alignment and proximity. 
+Crap is used for designing and styling part its the front-end part of the site so all the users visting your sire will mostly get attract by the color design you gave to the website and how does it works thats the most important.
+With the help of CRAP we can contantly deliver effective designs wether its a checkout page, landing page, or a website.
+Lets go in dept how CRAP works and how you can make your website more effective with the help of crap.
+
+Contrast-By the name itself we can figure it its used in terms of color so for example which color combination looks better then the other contrasrt can be achieved through diffferent size , shapes and color.
+One of the most fundamental design elements that the majority of us are familiar with is colour contrast. Even so, there are several situations when applying it can be challenging.
+
+repition- always try to select three or four color for website and then from that colors you can make different combination and it looks far more better then using different color all the time .
+For this website I did the combination of red black and white color as , I prefer this colors as they are basic but by combinning those colors you can make your website more attractive ,for example if you take yellow red puprle coloe for your design then it will look wierd as this colors doesn't match with each other always try to use minimal color and color which looks good when combine .
+try to use different fonts for heading , menu and search bar try to make logo unique as well with good color combination.
+
+Alignment - Every element's placement inside a design is determined by alignment. It is the idea that encourages arranging data in an orderly fashion.
+With alignment, no component of a design is placed at random. Each element in a design visibly relates to the others, creating coherence.
+Edge alignment and centre alignment are the two fundamental types of alignments. try to use ordered list or any other list to look more organised.if you check my website out you can see I had align everything from header to footer ,for example the title always should look bigger then other things in website I didn't mean to pur really big fonts but just increase the size by some number so whoever visiting website can look the difference.
+
+proximity- According to the principle of proximity, objects that are related to one another should be put close to one another The application of proximity, especially in online design, can lead to a better user experience.
+Users will have a tough time identifying elements that are connected to one another (and those that are not), which will lead to a bad user experience.
+I am really big sneaker guy and I love the way how they always comes with new color ways , so I decided to make my first sneaker website, for the name I went with soledrip thats easy and unique name that people can remember as well it makes sense for the color combination I went with red black grey and white , for sneaker website you need navbar for menu and for cateogaries , then we need a search bar to search products so I created the search bar and then I put a really good sneaker background as I was creating the sneaker webiste so it make sense 
+then I add some footer to it in footer I made the about us category for the brand then I did put register button in it if you click you can create a new user I did create a differnet page wiht java script , it was my first time making responive menu so I did took refernce online for that, then if you press faq it will redirect to faq where i did copy paste code from online and put the link for reference
+then i also add some giphy and social media icon so if yoou click there it will take you to twitter or facebook or insatgram . Combining these four design tenets can significantly raise the 
+
+level of design. To make sure that your website design provides an excellent user experience, apply this checklist of principles.
+
+I also have add one hover effect on the footer part when you take the cursor there it will change the color white.

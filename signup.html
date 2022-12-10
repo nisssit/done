@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <link href="signup.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="signup.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+<body>
+  <div class="container" class="registration" id="registration">
+    <div class="card col-md-4">
+      <form action="" name="registration" method="post">
+        <h2 class="text-center">Register</h2>
+        <div class="card-body">
+          <div class="form-group row">
+            <div class="col-md-3">
+              <label for="name">Name :</label>
+            </div>
+            <div class="col-md-9">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Name"
+                name="name"
+                id="name" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-3">
+              <label for="email">Email :</label>
+            </div>
+            <div class="col-md-9">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter Email"
+                name="email"
+                id="email" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-3">
+              <label for="password">Password:</label>
+            </div>
+            <div class="col-md-9">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Enter Password"
+                name="password"
+                id="password" />
+            </div>
+          </div>
+          <label for="hobbies">hobbies :</label>
+
+          <div id="hobbies" class="checkbox">
+            <label id="hobieslabel"
+              >Cricket
+              <input
+                type="checkbox"
+                name="hobbies"
+                id="hobbiesinput"
+                data-date="cricket"
+                value="cricket"
+                style="margin-left: 35px" />
+            </label>
+
+            <label id="hobieslabel"
+              >Reading
+              <input
+                type="checkbox"
+                name="hobbies"
+                id="hobbiesinput"
+                data-date="reading"
+                value="reading"
+                style="margin-left: 27px" />
+            </label>
+
+            <label id="hobieslabel">
+              Writing
+              <input
+                type="checkbox"
+                name="hobbies"
+                id="hobbiesinput"
+                data-date="writing"
+                value="writing"
+                style="margin-left: 32px" />
+            </label>
+
+            <label id="hobieslabel"
+              >Travaling
+              <input
+                type="checkbox"
+                name="hobbies"
+                id="hobbiesinput"
+                data-date="travaling"
+                value="travaling"
+                style="margin-left: 20px" />
+            </label>
+
+            <label id="hobieslabel"
+              >Learning
+              <input
+                type="checkbox"
+                name="hobbies"
+                id="hobbiesinput"
+                data-date="learing"
+                value=" learing"
+                style="margin-left: 25px" />
+            </label>
+
+            <label id="hobieslabel"
+              >Drawing
+              <input
+                type="checkbox"
+                name="hobbies"
+                id="hobbiesinput"
+                data-date="drawing"
+                value="drawing"
+                style="margin-left: 27px" />
+            </label>
+            <span id="errorToShow" style="margin-left: 80px"></span>
+          </div>
+          <br />
+          <div class="form-group row">
+            <div class="col-md-3">
+              <label for="Contact">Contact:</label>
+            </div>
+            <div class="col-md-9">
+              <input
+                type="number"
+                class="form-control quantity"
+                placeholder="Contact Number"
+                name="number"
+                id="number"
+                min="0"
+                max="9999999999"
+                maxlength="10" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-3">
+              <label for="photo">photo:</label>
+            </div>
+            <div class="col-md-9">
+              <input
+                type="file"
+                class="form-control"
+                id="photo"
+                name="photo"
+                src="#" />
+              <br />
+            </div>
+            <img
+              class="form_photo imageshow"
+              id="form_photo"
+              src="#"
+              width="100%"
+              height="100%" />
+          </div>
+          <div class="text-center">
+            <button class="button btn-block">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  </html>

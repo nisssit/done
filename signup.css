@@ -1,0 +1,47 @@
+body {
+  height: 700px”;
+}
+.card {
+  background: -webkit-linear-gradient(
+    rgb(13, 96, 180),
+    rgb(41, 4, 94) 100%
+  );
+  margin: auto;
+  padding: auto;
+  color: white;
+}
+.button {
+  background: -webkit-linear-gradient(
+    rgb(30, 75, 18),
+    rgb(5, 146, 85) 100%
+  );
+  color: aliceblue;
+}
+.button:hover {
+  background: -webkit-linear-gradient(
+    rgb(42, 186, 6),
+    rgb(2, 255, 145) 100%
+  );
+  color: aliceblue;
+}
+
+#hobieslabel {
+  margin-left: 80px;
+}
+.display:hover {
+  background: -webkit-linear-gradient(
+    rgb(42, 186, 6),
+    rgb(2, 255, 145) 100%
+  );
+  color: black;
+}
+.imageshow {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.imageshow:hover {
+  border-radius: 30px;
+  opacity: 1;
+}
